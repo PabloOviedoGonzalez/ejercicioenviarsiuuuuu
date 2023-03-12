@@ -30,7 +30,7 @@ public class GenerateMap : MonoBehaviour
                 if (map[i, j] == '0')
                 {
                     GameObject.Instantiate(oPrefab);
-                   // transform.position
+                    //transform.position (no se poner la posicion profe);
                 }
                 
                 else if(map[i, j] == 'x')
